@@ -1,0 +1,23 @@
+[
+  "step",
+  "amount",
+  "oldbalanceOrg",
+  "newbalanceOrig",
+  "oldbalanceDest",
+  "newbalanceDest",
+  "isFlaggedFraud",
+  "is_merchant",
+  "orig_balance_change",
+  "dest_balance_change",
+  "amount_to_orig_balance",
+  "orig_transaction_count",
+  "dest_transaction_count",
+  "hour",
+  "day",
+  "is_night",
+  "type_CASH_IN",
+  "type_CASH_OUT",
+  "type_DEBIT",
+  "type_PAYMENT",
+  "type_TRANSFER"
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "feature": "amount_to_orig_balance",
+    "importance": 0.23414594312136683
+  },
+  {
+    "feature": "orig_balance_change",
+    "importance": 0.21616388098278516
+  },
+  {
+    "feature": "newbalanceOrig",
+    "importance": 0.10178309448303102
+  },
+  {
+    "feature": "oldbalanceOrg",
+    "importance": 0.07873468128250122
+  },
+  {
+    "feature": "amount",
+    "importance": 0.05431895110312934
+  },
+  {
+    "feature": "hour",
+    "importance": 0.0427950210249655
+  },
+  {
+    "feature": "is_merchant",
+    "importance": 0.03994398364182174
+  },
+  {
+    "feature": "dest_balance_change",
+    "importance": 0.03855699844572149
+  },
+  {
+    "feature": "type_TRANSFER",
+    "importance": 0.031552475534032405
+  },
+  {
+    "feature": "oldbalanceDest",
+    "importance": 0.028732047678829396
+  },
+  {
+    "feature": "type_PAYMENT",
+    "importance": 0.027434435576465577
+  },
+  {
+    "feature": "newbalanceDest",
+    "importance": 0.022731241027442384
+  },
+  {
+    "feature": "step",
+    "importance": 0.01932523141331337
+  },
+  {
+    "feature": "dest_transaction_count",
+    "importance": 0.018544742114191694
+  },
+  {
+    "feature": "type_CASH_IN",
+    "importance": 0.014353937254328838
+  },
+  {
+    "feature": "type_CASH_OUT",
+    "importance": 0.011395168961799049
+  },
+  {
+    "feature": "day",
+    "importance": 0.011085569488056791
+  },
+  {
+    "feature": "is_night",
+    "importance": 0.008285628985162502
+  },
+  {
+    "feature": "type_DEBIT",
+    "importance": 0.00011679767341706303
+  },
+  {
+    "feature": "orig_transaction_count",
+    "importance": 1.7020763861769342e-07
+  },
+  {
+    "feature": "isFlaggedFraud",
+    "importance": 0.0
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "model": "FinGraph Random Forest",
+  "phase": "Phase 2 fair baseline",
+  "sample_size": 100000,
+  "seed": 42,
+  "train_end_step": 323,
+  "validation_end_step": 378,
+  "test_end_step": 741,
+  "test_transactions": 14453,
+  "test_fraud": 68,
+  "test_genuine": 14385,
+  "feature_count": 21,
+  "metrics": {
+    "accuracy": 0.9995848612744759,
+    "precision": 1.0,
+    "recall": 0.9117647058823529,
+    "f1": 0.9538461538461539,
+    "roc_auc": 0.9999959107730684,
+    "pr_auc": 0.9991440781756074,
+    "true_negative": 14385,
+    "false_positive": 0,
+    "false_negative": 6,
+    "true_positive": 62
+  }
+}

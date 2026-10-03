@@ -1,0 +1,53 @@
+{
+  "model": "Random Forest",
+  "phase": "Phase 2 fair baseline",
+  "sample_size": 100000,
+  "seed": 42,
+  "train_end_step": 323,
+  "validation_end_step": 378,
+  "test_end_step": 741,
+  "train_rows": 70226,
+  "validation_rows": 15321,
+  "test_rows": 14453,
+  "train_fraud": 58,
+  "validation_fraud": 7,
+  "test_fraud": 68,
+  "feature_count": 21,
+  "feature_columns": [
+    "step",
+    "amount",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "isFlaggedFraud",
+    "is_merchant",
+    "orig_balance_change",
+    "dest_balance_change",
+    "amount_to_orig_balance",
+    "orig_transaction_count",
+    "dest_transaction_count",
+    "hour",
+    "day",
+    "is_night",
+    "type_CASH_IN",
+    "type_CASH_OUT",
+    "type_DEBIT",
+    "type_PAYMENT",
+    "type_TRANSFER"
+  ],
+  "parameters": {
+    "n_estimators": 250,
+    "max_depth": 18,
+    "min_samples_leaf": 2,
+    "class_weight": "balanced_subsample"
+  },
+  "validation_metrics": {
+    "accuracy": 0.9999347301090007,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1": 0.9230769230769231,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0
+  }
+}
